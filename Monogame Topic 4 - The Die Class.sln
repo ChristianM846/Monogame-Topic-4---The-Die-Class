@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35013.160
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Monogame Topic 4 - The Die Class", "Monogame Topic 4 - The Die Class.csproj", "{885E8066-FEC9-47ED-8EAE-3193A3DB4136}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{885E8066-FEC9-47ED-8EAE-3193A3DB4136}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{885E8066-FEC9-47ED-8EAE-3193A3DB4136}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{885E8066-FEC9-47ED-8EAE-3193A3DB4136}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{885E8066-FEC9-47ED-8EAE-3193A3DB4136}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5ECF2B7B-D971-4069-A61C-A810042D86EB}
+	EndGlobalSection
+EndGlobal
