@@ -1,7 +1,6 @@
 ﻿using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
-using System;
 using System.Collections.Generic;
 
 namespace Monogame_Topic_4___The_Die_Class
@@ -29,14 +28,14 @@ namespace Monogame_Topic_4___The_Die_Class
             dieTextures = new List<Texture2D>();
             dice = new List<Die>();
 
-            for (int x = 0; x <= 7; x ++)
+            for (int x = 0; x <= 7; x++)
             {
                 for (int i = 0; i < 6; i++)
                 {
                     dice.Add(new Die(dieTextures, new Rectangle(100 * x + 10, i * 75 + 10, 75, 75)));
                 }
             }
-            
+
 
             base.Initialize();
 
@@ -74,10 +73,10 @@ namespace Monogame_Topic_4___The_Die_Class
             {
                 for (int i = 0; i < dice.Count; i++)
                 {
-                   if (dice[i].Location.Contains(mouseState.Position))
-                   {
+                    if (dice[i].Location.Contains(mouseState.Position))
+                    {
                         dice.Remove(dice[i]);
-                   }
+                    }
                 }
 
                 if (dice.Count == 0)
